@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Hyundai i20",
+    "price": 650000,
+    "fuel": "Petrol",
+    "image": "https://imgd.aeplcdn.com/664x374/n/cw/ec/40535/i20-exterior-right-front-three-quarter.jpeg"
+  },
+  {
+    "name": "Swift",
+    "price": 500000,
+    "fuel": "Petrol",
+    "image": "https://imgd.aeplcdn.com/664x374/n/cw/ec/54399/swift-exterior-right-front-three-quarter.jpeg"
+  },
+  {
+    "name": "Honda City",
+    "price": 820000,
+    "fuel": "Petrol",
+    "image": "https://imgd.aeplcdn.com/664x374/n/cw/ec/27074/city-exterior-right-front-three-quarter.jpeg"
+  },
+  {
+    "name": "Creta",
+    "price": 1050000,
+    "fuel": "Diesel",
+    "image": "https://imgd.aeplcdn.com/664x374/n/cw/ec/40535/creta-exterior-right-front-three-quarter.jpeg"
+  }
+]
