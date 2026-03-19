@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Car Consulting</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar">
+  <h1>CarZone</h1>
+  <ul>
+    <li>Home</li>
+    <li>Buy Car</li>
+    <li>Sell Car</li>
+    <li>Contact</li>
+  </ul>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero">
+  <h2>Find Your Perfect Car 🚗</h2>
+  <p>Best deals. Trusted service.</p>
+  <input type="text" placeholder="Search cars...">
+  <button>Search</button>
+</section>
+
+<!-- Car Listings -->
+<section class="cars">
+  <h2>Featured Cars</h2>
+
+  <div class="car-container">
+    
+    <div class="car-card">
+      <img src="https://via.placeholder.com/250">
+      <h3>Hyundai i20</h3>
+      <p>₹6,50,000</p>
+      <button>View Details</button>
+    </div>
+
+    <div class="car-card">
+      <img src="https://via.placeholder.com/250">
+      <h3>Swift</h3>
+      <p>₹5,00,000</p>
+      <button>View Details</button>
+    </div>
+
+    <div class="car-card">
+      <img src="https://via.placeholder.com/250">
+      <h3>Honda City</h3>
+      <p>₹8,20,000</p>
+      <button>View Details</button>
+    </div>
+
+  </div>
+</section>
+<!-- Search & Filter -->
+<div style="text-align:center; margin:20px;">
+  <input type="text" id="search" placeholder="Search car...">
+  
+  <select id="fuelFilter">
+    <option value="">All Fuel</option>
+    <option value="Petrol">Petrol</option>
+    <option value="Diesel">Diesel</option>
+  </select>
+
+  <select id="priceFilter">
+    <option value="">All Price</option>
+    <option value="500000">Below 5L</option>
+    <option value="800000">Below 8L</option>
+    <option value="1000000">Below 10L</option>
+  </select>
+</div>
+
+<div class="car-container" id="cars"></div>
+
+<script src="script.js"></script>
+<!-- Why Us -->
+<section class="why">
+  <h2>Why Choose Us?</h2>
+  <div class="features">
+    <div>✔ Verified Cars</div>
+    <div>✔ Best Price</div>
+    <div>✔ Easy Process</div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <p>© 2026 CarZone | All rights reserved</p>
+</footer>
+
+</body>
+</html>
+
+
